@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
         .section1{
             display: grid;
             grid-template-columns: auto auto;
@@ -128,7 +132,7 @@
         }
         .bottom{
             height: 50vh;
-            background-color: rgb(1, 62, 1);
+            background-color: rgb(15, 29, 15);
             color: white;
         }
         .bottom-box1{
@@ -173,6 +177,11 @@
         }
         .bottom-box5 > button{
             margin-top: 15px;
+        }
+        .bottom-down{
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-evenly;
         }
     </style>
 </head>
@@ -361,6 +370,11 @@
             </div>
         </div>
 
+        <div class="bottom-down">
+            <div class="bottom-down1">Location</div>
+            <div class="bottom-down2">mail@domain.com</div>
+            <div class="bottom-down3">Call +01 1234567890</div>
+        </div>
 
     </div>
 </body>
