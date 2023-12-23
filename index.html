@@ -37,16 +37,12 @@
             margin: 2px;
         }
         .sec2-box1{
-            /* width: 40vw;
-            height: 30vh; */
-            border: 2px solid green;
+            width: 40vw;
+            height: 45vh;
 
         }
-        .sec2-box2{
-            /* padding: 50px; */
-            /* padding-left: 150px; */
-            margin-top: 30px;
-            padding-top: 40px;
+        .sec2-box2 > p, h1{
+            /* padding: 10px; */
 
         }
         .section3{
@@ -145,10 +141,11 @@
         }
         .bottom-box1-b{
             display: flex;
+            justify-content: space-between;
             color: blue;
-            text-decoration: none;
-            margin: 0 15px;
-            margin-top: 20px;
+            margin: 15px;
+            margin-top: 45px;
+            margin-left: 250px;
         }
         .bottom-box2{
             margin-left: 125px;
@@ -165,6 +162,17 @@
         .bottom-box{
             display: flex;
             justify-content: space-evenly;
+        }
+        .bottom-box1-b > h5{
+            margin: 5px;
+            color: white;
+        }
+        .bottom-box5{
+            display: flex;
+            flex-direction: column;
+        }
+        .bottom-box5 > button{
+            margin-top: 15px;
         }
     </style>
 </head>
@@ -188,7 +196,7 @@
 
     <div class="section2">
         <div class="sec2-box1">
-            <img src="https://cdni.iconscout.com/illustration/premium/thumb/businessman-working-in-office-3455479-2929000.png?f=webp" height="300px" width="500px" alt="">
+            <img src="https://cdni.iconscout.com/illustration/premium/thumb/businessman-working-in-office-3455479-2929000.png?f=webp" height="350px" width="500px" alt="">
         </div>
         <div class="sec2-box2">
             <h1>Best Experinced Freelancer Here</h1>
@@ -346,7 +354,11 @@
                     when looking at its <br>
                     layout</p>
             </div>
-            <div class="bottom-box5">Lorem ipsum dolor sit amet.</div>
+            <div class="bottom-box5">
+                <h1>Newsletter</h1>
+                <input type="email" placeholder="Email">
+                <button>SUBSCRIBE</button>
+            </div>
         </div>
 
 
